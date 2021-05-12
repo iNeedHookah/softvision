@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script type="module" src="./js/workers.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button id="generate-user">Genereaza utilizator</button>
+    <div id="user-container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+        id="user-thumbnail"
+      />
+      <div id="user-info">
+        <!-- picture, name, gender, e-mail și age -->
+        <div class="inline-info">
+          <p class="title">Name:</p>
+          <p class="info" id="name"></p>
+        </div>
+        <div class="inline-info">
+          <p class="title">Gender:</p>
+          <p class="info" id="gender"></p>
+        </div>
+        <div class="inline-info">
+          <p class="title">E-mail:</p>
+          <p class="info" id="email"></p>
+        </div>
+        <div class="inline-info">
+          <p class="title">Age:</p>
+          <p class="info" id="age"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/api.js"></script>
+    <script src="js/arrayManipulation.js"></script>
+  </body>
+</html>
