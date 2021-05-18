@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+#app-container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loader-container {
+  height: 50px;
+  width: 50vw;
+  background-color: #5e6678;
+  margin: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #edb314;
+}
+
+#loader-container span {
+  display: block;
+  height: 100%;
+}
+
+.progress {
+  background-color: #edb314;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+#stopwatch-container {
+  width: 50vw;
+  background-color: #0f1116;
+  padding: 20px;
+  height: 250px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 2px 2px 20px #0f1116;
+}
+
+#buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#timer-container {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: #edb314;
+  width: 120%;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px 2px 20px #edb314;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#buttons-container {
+  padding-top: 50px;
+}
+
+.custom-btn {
+  border-radius: 5px;
+  background-color: #edb314;
+  color: #0f1116;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+
+  padding: 20px;
+  border: none;
+}
+
+.custom-btn:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 20px #edb314;
+}
