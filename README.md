@@ -15,5 +15,9 @@
 
   ### **Tema 2**
 
-*Creați un progress bar folosind animatii CSS, acesta trebuie să se încarce de la 0 la 100.
-*Creați un cronometru, adăugați posibilitatea ca utilizatorul să îl poată reseta, opri, porni.
+* Creați un progress bar folosind animatii CSS, acesta trebuie să se încarce de la 0 la 100.
+* Creați un cronometru, adăugați posibilitatea ca utilizatorul să îl poată reseta, opri, porni.
+
+### **Tema 3**
+
+- Pornind de la codul existent din curs, creați un calculator pe care utilizatorul il poate controla folosind mainile și webcam-ul (similar cu un calculator de buzunar, va puteti limita la operațiile de adunare, scadere, inmultire, impartire).
