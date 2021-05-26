@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app-container {
+  width: 780px;
+  height: 439px;
+  border: 1px solid black;
+  margin-top: 20px;
+  z-index: 2;
+  margin-left: 20px;
+  position: relative;
+  opacity: 0.7;
+}
+
+#grid-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.grid-cell {
+  width: 45px;
+  height: 45px;
+  background-color: lightgray;
+  margin: 1px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.grid-cell:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.grid-cell.active {
+  background-color: lightgreen;
+}
+
+.grid-cell.animate {
+  animation-name: animate-cell;
+  animation-duration: 0.2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+@keyframes animate-cell {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.4);
+  }
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-play-btn,
+.grid-reset-btn {
+  width: 35px;
+  border: 1px solid;
+  padding: 5px;
+  margin: 2px;
+  background: white;
+}
+
+#video-input {
+  display: none;
+}
+
+#canvas-output {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 1px solid;
+  z-index: 1;
+}
+
+.result-format {
+  background-color: lightblue;
+  width: 187px;
+  height: 50px;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+}
+
+.result-btn {
+  background-color: red;
+  text-align: center;
+  color: white;
+  width: 187px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
