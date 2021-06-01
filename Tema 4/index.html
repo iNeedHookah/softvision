@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Augmented Rythms</title>
+    <link href="index.css" rel="stylesheet" />
+    <script type="module" src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Load MobileNet -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <!-- Load KNN Classifier -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <div id="app-container">
+      <div id="grid-container"></div>
+    </div>
+    <video id="video-input"></video>
+    <canvas id="canvas-output" width="780" height="439"></canvas>
+    <div id="counter-container"></div>
+    <div id="classifier-buttons-container"></div>
+    <div id="square"></div>
+  </body>
+</html>
