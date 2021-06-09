@@ -22,10 +22,15 @@
 
 - Pornind de la codul existent din curs, creați un calculator pe care utilizatorul il poate controla folosind mainile și webcam-ul (similar cu un calculator de buzunar, va puteti limita la operațiile de adunare, scadere, inmultire, impartire).
 
-### **Tema4**
+### **Tema 4**
 
 - Afișați într-un element câte degete ridicate are utilizatorul.
 - Utilizând noțiunile din curs
+
   - afișați pe ecran un div de 300 x 300 care este inițial negru
   - adăugați funcționalitate pentru învățarea de gesturi
   - adăugați minim 5 gesturi, fiecare gest va colora div-ul într-o altă culoare
+
+  ### **Tema 5**
+
+  - Afișați o întrebare și trei variante de răspuns. Când utilizatorul alege răspunsul potrivit, acesta se colorează verde și se aude un anumit sunet. Dacă răspunsul selectat este greșit atunci se va colora în roșu și va produce un alt sunet.
