@@ -13,10 +13,10 @@
   - Parcurgeți array-ul și afișați fiecare număr adunat cu 15 \* numărul respectiv ( pentru 2 se va afișa 32), folosind atat VanillaJS cât și arrow functions și iteratori specifici ES6.
   - Folosind destructuring copiați array-ul și modificați elementele astfel: 2 va deveni 22, 6 va deveni 66. Afișați ambele array-uri.
 
-  ### **Tema 2**
+### **Tema 2**
 
-* Creați un progress bar folosind animatii CSS, acesta trebuie să se încarce de la 0 la 100.
-* Creați un cronometru, adăugați posibilitatea ca utilizatorul să îl poată reseta, opri, porni.
+- Creați un progress bar folosind animatii CSS, acesta trebuie să se încarce de la 0 la 100.
+- Creați un cronometru, adăugați posibilitatea ca utilizatorul să îl poată reseta, opri, porni.
 
 ### **Tema 3**
 
@@ -31,6 +31,6 @@
   - adăugați funcționalitate pentru învățarea de gesturi
   - adăugați minim 5 gesturi, fiecare gest va colora div-ul într-o altă culoare
 
-  ### **Tema 5**
+### **Tema 5**
 
-  - Afișați o întrebare și trei variante de răspuns. Când utilizatorul alege răspunsul potrivit, acesta se colorează verde și se aude un anumit sunet. Dacă răspunsul selectat este greșit atunci se va colora în roșu și va produce un alt sunet.
+- Afișați o întrebare și trei variante de răspuns. Când utilizatorul alege răspunsul potrivit, acesta se colorează verde și se aude un anumit sunet. Dacă răspunsul selectat este greșit atunci se va colora în roșu și va produce un alt sunet.
