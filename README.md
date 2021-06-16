@@ -34,3 +34,7 @@
 ### **Tema 5**
 
 - Afișați o întrebare și trei variante de răspuns. Când utilizatorul alege răspunsul potrivit, acesta se colorează verde și se aude un anumit sunet. Dacă răspunsul selectat este greșit atunci se va colora în roșu și va produce un alt sunet.
+
+### **Tema 6**
+
+- Redați un sunet la un anumit interval de timp, în funcție de câte degete are ridicate utilizatorul ( minim 0, maxim 5 - sunetul va fi redat la un interval mai scurt sau mai lung).
